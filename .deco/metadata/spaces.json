@@ -177,7 +177,73 @@
       "name": "Sections",
       "pinned": true,
       "icon": "block",
-      "layout": [],
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "sections::List::list::List::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-sections::List::list::List::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "sections::List::list::List::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
         "sections::List::list::List::%7B%7D": {
           "name": "List",
@@ -237,7 +303,73 @@
       "name": "Releases",
       "pinned": true,
       "icon": "rocket",
-      "layout": [],
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "releases::releases::rocket::releases::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-releases::releases::rocket::releases::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "releases::releases::rocket::releases::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
         "releases::releases::rocket::releases::%7B%7D": {
           "name": "releases",
@@ -478,7 +610,73 @@
       "name": "Settings",
       "pinned": true,
       "icon": "adjustments-horizontal",
-      "layout": [],
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "width": 100,
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "settings::settings::adjustments-horizontal::settings::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-settings::settings::adjustments-horizontal::settings::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "settings::settings::adjustments-horizontal::settings::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
         "settings::settings::adjustments-horizontal::settings::%7B%7D": {
           "name": "settings",
@@ -486,16 +684,6 @@
           "render": "function",
           "viewId": "settings",
           "id": "settings::settings::adjustments-horizontal::settings::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "settings::domains::adjustments-horizontal::domains::%7B%7D": {
-          "name": "domains",
-          "icon": "adjustments-horizontal",
-          "render": "function",
-          "viewId": "domains",
-          "id": "settings::domains::adjustments-horizontal::domains::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -567,7 +755,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 26.223337515683813,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -581,6 +769,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D"
                     },
+                    "width": 30,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -588,20 +777,21 @@
               },
               {
                 "type": "stack",
-                "width": 73.77666248431618,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::visibility::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::visibility::Preview::%7B%7D"
                     },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -617,24 +807,26 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
         "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
+          "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::visibility::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "visibility",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::visibility::Preview::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -838,6 +1030,209 @@
           "render": "function",
           "viewId": "Environment",
           "id": "Publish::Environment::rocket-launch::Environment::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "{\"oid\":\"d307c84d3bec7ac2cdbc9016747f71d56109b774\",\"short\":\"d307c84\",\"commit\":{\"message\":\"creating db\\n\",\"parent\":[\"811f495bd117756a58c4b2cde2d7dc746330cb13\"],\"tree\":\"4820b51d46ddf2f18e3f24a5879215917eeaeb41\",\"author\":{\"name\":\"Leticia\",\"email\":\"leticiabsousad@gmail.com\",\"timestamp\":1720641312,\"timezoneOffset\":180},\"committer\":{\"name\":\"Leticia\",\"email\":\"leticiabsousad@gmail.com\",\"timestamp\":1720641312,\"timezoneOffset\":180}}}",
+      "name": "Release d307c84",
+      "pinned": false,
+      "icon": "rocket-launch",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%7B%22oid%22%3A%22d307c84d3bec7ac2cdbc9016747f71d56109b774%22%2C%22short%22%3A%22d307c84%22%2C%22commit%22%3A%7B%22message%22%3A%22creating%20db%5Cn%22%2C%22parent%22%3A%5B%22811f495bd117756a58c4b2cde2d7dc746330cb13%22%5D%2C%22tree%22%3A%224820b51d46ddf2f18e3f24a5879215917eeaeb41%22%2C%22author%22%3A%7B%22name%22%3A%22Leticia%22%2C%22email%22%3A%22leticiabsousad%40gmail.com%22%2C%22timestamp%22%3A1720641312%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Leticia%22%2C%22email%22%3A%22leticiabsousad%40gmail.com%22%2C%22timestamp%22%3A1720641312%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket-launch::Release::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%22d307c84d3bec7ac2cdbc9016747f71d56109b774%22%2C%22short%22%3A%22d307c84%22%2C%22commit%22%3A%7B%22message%22%3A%22creating%20db%5Cn%22%2C%22parent%22%3A%5B%22811f495bd117756a58c4b2cde2d7dc746330cb13%22%5D%2C%22tree%22%3A%224820b51d46ddf2f18e3f24a5879215917eeaeb41%22%2C%22author%22%3A%7B%22name%22%3A%22Leticia%22%2C%22email%22%3A%22leticiabsousad%40gmail.com%22%2C%22timestamp%22%3A1720641312%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Leticia%22%2C%22email%22%3A%22leticiabsousad%40gmail.com%22%2C%22timestamp%22%3A1720641312%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket-launch::Release::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%7B%22oid%22%3A%22d307c84d3bec7ac2cdbc9016747f71d56109b774%22%2C%22short%22%3A%22d307c84%22%2C%22commit%22%3A%7B%22message%22%3A%22creating%20db%5Cn%22%2C%22parent%22%3A%5B%22811f495bd117756a58c4b2cde2d7dc746330cb13%22%5D%2C%22tree%22%3A%224820b51d46ddf2f18e3f24a5879215917eeaeb41%22%2C%22author%22%3A%7B%22name%22%3A%22Leticia%22%2C%22email%22%3A%22leticiabsousad%40gmail.com%22%2C%22timestamp%22%3A1720641312%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Leticia%22%2C%22email%22%3A%22leticiabsousad%40gmail.com%22%2C%22timestamp%22%3A1720641312%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket-launch::Release::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%7B%22oid%22%3A%22d307c84d3bec7ac2cdbc9016747f71d56109b774%22%2C%22short%22%3A%22d307c84%22%2C%22commit%22%3A%7B%22message%22%3A%22creating%20db%5Cn%22%2C%22parent%22%3A%5B%22811f495bd117756a58c4b2cde2d7dc746330cb13%22%5D%2C%22tree%22%3A%224820b51d46ddf2f18e3f24a5879215917eeaeb41%22%2C%22author%22%3A%7B%22name%22%3A%22Leticia%22%2C%22email%22%3A%22leticiabsousad%40gmail.com%22%2C%22timestamp%22%3A1720641312%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Leticia%22%2C%22email%22%3A%22leticiabsousad%40gmail.com%22%2C%22timestamp%22%3A1720641312%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket-launch::Release::%7B%7D": {
+          "name": "Release",
+          "icon": "rocket-launch",
+          "render": "function",
+          "viewId": "Release",
+          "id": "%7B%22oid%22%3A%22d307c84d3bec7ac2cdbc9016747f71d56109b774%22%2C%22short%22%3A%22d307c84%22%2C%22commit%22%3A%7B%22message%22%3A%22creating%20db%5Cn%22%2C%22parent%22%3A%5B%22811f495bd117756a58c4b2cde2d7dc746330cb13%22%5D%2C%22tree%22%3A%224820b51d46ddf2f18e3f24a5879215917eeaeb41%22%2C%22author%22%3A%7B%22name%22%3A%22Leticia%22%2C%22email%22%3A%22leticiabsousad%40gmail.com%22%2C%22timestamp%22%3A1720641312%2C%22timezoneOffset%22%3A180%7D%2C%22committer%22%3A%7B%22name%22%3A%22Leticia%22%2C%22email%22%3A%22leticiabsousad%40gmail.com%22%2C%22timestamp%22%3A1720641312%2C%22timezoneOffset%22%3A180%7D%7D%7D::Release::rocket-launch::Release::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20%2Fsections%2FNewsletterSubscriber.tsx.json",
+      "name": "NewsletterSubscriber.tsx",
+      "pinned": false,
+      "icon": "code",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletterSubscriber.tsx.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletterSubscriber.tsx.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletterSubscriber.tsx.json::Preview::visibility::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletterSubscriber.tsx.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletterSubscriber.tsx.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletterSubscriber.tsx.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletterSubscriber.tsx.json::Preview::visibility::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "visibility",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletterSubscriber.tsx.json::Preview::visibility::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletterSubscriber.tsx.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletterSubscriber.tsx.json::Code::code::Code::%7B%7D",
           "state": {
             "__signal": null
           }
