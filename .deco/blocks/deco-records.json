@@ -1,0 +1,9 @@
+{
+  "__resolveType": "site/apps/deco/records.ts",
+  "url": "libsql://blog-lets-decocx.turso.io",
+  "authToken": {
+    "__resolveType": "website/loaders/secret.ts",
+    "name": "DATABASE_AUTH_TOKEN",
+    "encrypted": "e5cfbe2202ba77787a5ea7a5bf8a06f684ec9e2b294da4a9874fe68e766ce8b1df4e1e43771deb872565d77ebe95c534dedf49c992d3b3f0b45ea5728664cb3bc1a22acfe56d8e8c435ec9cf77db3c0270699dbada69eee99717fdc37120aa6bba8f6a651d1f8c81a55bbd655ea28a645755bd10c7f0a6296a4185b38dbecc9acaee5b46721a5ad571431bd68e58f861aba6b9b1fc81104e92225c25f390ff2f43cad1f2424a745a813f8bb8adfa5b5423bbfe3d655e3c7bbc6d53e10fb5145d1cb5e44e9f1ec4e74478e39d9adca3b2935ab4d5f3385e25165b9868d40a0bd6"
+  }
+}
