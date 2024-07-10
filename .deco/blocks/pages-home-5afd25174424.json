@@ -6,6 +6,9 @@
       "__resolveType": "Header"
     },
     {
+      "__resolveType": "site/sections/Newsletter.tsx"
+    },
+    {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<p>Click here to tweak this text however you want.</p>",
       "description": "This text is entirely editable, tailor it freely."
