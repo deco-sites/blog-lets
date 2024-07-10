@@ -147,5 +147,13 @@
   "/.deco/blocks/deco-records.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/deco/records.ts"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FComponent.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Component.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FConfirmation.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Confirmation.tsx"
   }
 }
