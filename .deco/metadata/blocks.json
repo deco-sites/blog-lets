@@ -163,5 +163,15 @@
   "/.deco/blocks/Preview%20%2Fsections%2FNewsletter.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Newsletter.tsx"
+  },
+  "/.deco/blocks/pages-My%2520New%2520Page-229887.json": {
+    "name": "Confirmation",
+    "path": "/confirm-newsletter",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/deco-resend.json": {
+    "blockType": "apps",
+    "__resolveType": "site/apps/deco/resend.ts"
   }
 }
