@@ -1448,7 +1448,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 17.967745129308295,
+                "width": 25,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1469,28 +1469,7 @@
               },
               {
                 "type": "stack",
-                "width": 21.291447882097113,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Terminal::terminal::Terminal::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Terminal::terminal::Terminal::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Terminal::terminal::Terminal::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 20.740806988594603,
+                "width": 25,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1511,19 +1490,19 @@
               },
               {
                 "type": "stack",
-                "width": 20,
+                "width": 24.999999999999996,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fdb%2Fschema.ts%22%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fdb%2Fschema.ts%22%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Terminal::terminal::Terminal::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Terminal::terminal::Terminal::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fdb%2Fschema.ts%22%7D"
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Terminal::terminal::Terminal::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -1532,7 +1511,7 @@
               },
               {
                 "type": "stack",
-                "width": 20,
+                "width": 25,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1572,17 +1551,6 @@
             "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Terminal::terminal::Terminal::%7B%7D": {
-          "name": "Terminal",
-          "icon": "terminal",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Terminal",
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Terminal::terminal::Terminal::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
         "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Code::code::Code::%7B%7D": {
           "name": "Code",
           "icon": "code",
@@ -1594,18 +1562,15 @@
             "__signal": "error"
           }
         },
-        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fdb%2Fschema.ts%22%7D": {
-          "name": "Code",
-          "icon": "code",
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Terminal::terminal::Terminal::%7B%7D": {
+          "name": "Terminal",
+          "icon": "terminal",
           "accepts": "function",
           "render": "function",
-          "viewId": "Code",
-          "viewProps": {
-            "spaceId": "/db/schema.ts"
-          },
-          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fdb%2Fschema.ts%22%7D",
+          "viewId": "Terminal",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Terminal::terminal::Terminal::%7B%7D",
           "state": {
-            "__signal": "error"
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FNewsletter.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.env%22%7D": {

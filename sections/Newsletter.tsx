@@ -109,7 +109,7 @@ export default function NewsletterSubscriber(props: Props) {
 
   return (
     <section class="hero min-h-screen">
-      <div class="hero-content text-center text-neutral-content">
+      <div class="hero-content text-center text-neutral-content text-black">
         <div class="max-w-md">
           <h1 class="mb-5 mt-10 text-5xl font-bold">{title}</h1>
           <p class="mb-5">{description}</p>
