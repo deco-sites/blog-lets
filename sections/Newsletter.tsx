@@ -39,7 +39,7 @@ export default function NewsletterSubscription({
         <input
           type="email"
           placeholder="Enter your email"
-          class="flex-grow mr-2 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          class="flex-grow mr-2 input input-bordered"
         />
         <button
           class="btn btn-primary"
