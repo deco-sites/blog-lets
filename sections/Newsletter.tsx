@@ -3,6 +3,7 @@ import { useComponent } from "./Component.tsx"
 import type { AppContext as RecordsApp } from "site/apps/deco/records.ts";
 import type { AppContext as ResendApp } from "apps/resend/mod.ts";
 import { newsletter } from "site/db/schema.ts";
+import { eq } from "drizzle-orm";
 
 // Interface que define as propriedades aceitas pelo componente
 export interface Props {
@@ -49,15 +50,15 @@ export async function action(
 
     // Verifica se o email já está registrado no banco de dados
     console.log("Checking if email already exists in the database");
-    const records = await drizzle
+    const recs = await drizzle
       .select({ email: newsletter.email })
       .from(newsletter)
-      .where(newsletter.email === email);
-    if (records.length) {
-      console.log("Email already exists");
+      .where(eq(newsletter.email, email));
+
+    if (recs.length) {
       return {
         ...props,
-        submissionResponse: { error: "Email already exists.", email },
+        submissionResponse: { error: "Email já cadastrado.", email },
       };
     }
 
