@@ -1,1 +1,10 @@
-{"__resolveType":"site/apps/deco/resend.ts"}
+{
+  "__resolveType": "site/apps/deco/resend.ts",
+  "apiWrite": {},
+  "emailTo": [],
+  "apiKey": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "5df73ba5840d8a66770ed69ff9d51c39ab0005fd3db825d41d3782200ac96e0286b7c57bbee03ef985751adb75705a79",
+    "name": "RESENDKEY"
+  }
+}

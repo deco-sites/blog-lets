@@ -2,7 +2,6 @@ import type { AppContext } from "../apps/site.ts";
 import { useComponent } from "./Component.tsx"
 import type { AppContext as RecordsApp } from "site/apps/deco/records.ts";
 import type { AppContext as ResendApp } from "apps/resend/mod.ts";
-import { eq } from "std/semver/mod.ts";
 import { newsletter } from "site/db/schema.ts";
 
 // Interface que define as propriedades aceitas pelo componente
@@ -43,10 +42,11 @@ export async function action(
     return { ...props, submissionResponse: { email: "" } };
   }
 
-  // Carrega o drizzle para interagir com o banco de dados
-  const drizzle = await ctx.invoke("records/loaders/drizzle.ts");
-
   try {
+    // Carrega o drizzle para interagir com o banco de dados
+    console.log("Loading drizzle for database interaction");
+    const drizzle = await ctx.invoke("records/loaders/drizzle.ts");
+
     // Verifica se o email já está registrado no banco de dados
     console.log("Checking if email already exists in the database");
     const records = await drizzle
