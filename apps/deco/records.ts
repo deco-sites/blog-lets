@@ -1,4 +1,4 @@
-export { default } from "apps/records/mod.ts";
+export { default as fn, Props } from "apps/records/mod.ts";
 export * from "apps/records/mod.ts";
 
 export default function Records(p: Props) {
