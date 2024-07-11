@@ -58,7 +58,7 @@ export async function action(
     if (recs.length) {
       return {
         ...props,
-        submissionResponse: { error: "Email já cadastrado.", email },
+        submissionResponse: { error: "Email already exists.", email },
       };
     }
 
@@ -95,11 +95,20 @@ export async function action(
 }
 
 // Função que retorna as propriedades do componente
-export function loader(props: Props) {
+export async function loader(props: Props, req, ctx) {
+  const drizzle = await ctx.invoke("records/loaders/drizzle.ts");
+  try {
+    const recs = await drizzle
+      .select({ email: newsletter.email })
+      .from(newsletter);
+    console.log(recs);
+  } catch(e) {
+    console.log("testee", e)
+  }
   return props;
 }
 
-// Componente funcional que renderiza o formulário de inscrição na newsletter
+// Componente que renderiza o formulário de inscrição na newsletter
 export default function NewsletterSubscriber(props: Props) {
   const {
     title = "Subscribe to our Newsletter",
